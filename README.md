@@ -1,7 +1,10 @@
 # dbivp
 Install Verification Procedures (IVP) for Db2 on z/OS and LUW
+LUW tests run on DB2 for LUW version 11.5 (running in a docker image: https://hub.docker.com/r/ibmcom/db2)
+z/OS tests WERE NOT TESTED and only provided  as a reference althouge the syntax and tests should be correct. 
 
-Job have to run with SYSADM authority 
+
+Run with SYSADM authority 
 
 List of tests: 
 

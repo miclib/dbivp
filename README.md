@@ -1,6 +1,8 @@
 # dbivp
 Install Verification Procedures (IVP) for Db2 on z/OS and LUW
 
+Job have to run with SYSADM authority 
+
 List of tests: 
 
     * Drop all IVP database left from previous runs (DBIVP*)
@@ -21,6 +23,7 @@ List of tests:
     * Test insert/select/delete operations on table2 
 
 -- BLOB and CLOB tests 
+
     * Create table4 with CLOB object 
     * insert CLOB into table4 
     * select CLOB from table4

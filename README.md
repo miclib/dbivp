@@ -6,8 +6,14 @@ Install Verification Procedures (IVP) for Db2 on z/OS and LUW
 
 --> z/OS tests WERE NOT TESTED and only provided  as a reference althouge the syntax and tests should be correct. 
 
+--> The JCL's are built by a Phython program 
 
-Run with SYSADM authority 
+-->< Run with SYSADM authority 
+
+
+Process description
+
+Job DB2IVP1
 
 List of tests: 
 
